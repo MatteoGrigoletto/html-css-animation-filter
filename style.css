@@ -143,3 +143,87 @@
     width: 60px;
     height: 20px;
 }
+/* exe */
+.ex-12-button:hover .ex-12-top-white {
+    animation: top-rotate 3s linear; 
+}    
+@keyframes top-rotate {
+    0% {
+        left: 5%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-rotate 3s linear;
+}
+@keyframes bottom-rotate {
+    0%{
+        right: 5%;
+    }
+    50%{
+        right: calc(100% - 60px);
+    }
+}
+/* exe */
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-rotate2 3s linear;
+}
+@keyframes top-rotate2 {
+    0% {
+        left: -5%;
+        top: -5%;
+    }
+    25% {
+        left: calc(100% - 30px);
+        top: -10%;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90%{
+        left: -5%;
+        top: -5%;
+    }
+    100% {
+        left: 20%;
+        top: -10%;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bottom-rotate2 3s linear;
+}
+@keyframes bottom-rotate2 {
+    0% {
+        bottom: -5%;
+        right: -5%;
+    }
+    25% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90%{
+        right: -5%;
+        bottom: -5%;
+    }
+    100% {
+        bottom: -10%;
+        right: 20%;
+    }
+}
+
+
